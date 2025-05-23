@@ -17,7 +17,7 @@ int main() {
     vector<Process> p(n);
     for (int i = 0; i < n; i++) {
         p[i].pid = i + 1;
-        cout << "Enter arrival time, burst time, and priority for process " << i + 1 << ": ";
+        cout << "Enter arrival time, burst time, and priority for Each process " << i + 1 << ": ";
         cin >> p[i].arrival >> p[i].burst >> p[i].priority;
         p[i].remaining = p[i].burst;
     }
